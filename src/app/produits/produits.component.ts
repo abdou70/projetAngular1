@@ -10,7 +10,7 @@ export class ProduitsComponent implements OnInit {
   produits:string[];
 
   constructor() { 
-    this.produits = ["PC Asus", "Imprimante Epson", "Tablette Samsung"];
+    this.produits = ["PC Asus", "Imprimante Epson", "Tablettess Samsung"];
   }
 
   ngOnInit(): void {

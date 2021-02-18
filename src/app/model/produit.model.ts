@@ -2,11 +2,12 @@ export class Produit{
 idProduit : number;
 nomProduit : String;
 prixProduit : number;
-dateCreation : Date ;
+dateCreation : String ;
 
 
-constructor(idProduit:number,nomProduit:String,prixProduit:number,dateCreation:Date){
+constructor(idProduit:number,nomProduit:String,prixProduit:number,dateCreation:String){
 
+    
     this.idProduit=idProduit;
     this.nomProduit=nomProduit;
     this.prixProduit=prixProduit;
